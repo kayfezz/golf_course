@@ -1,0 +1,180 @@
+.navImage {
+    height:100vh;
+    background-image: url("/images/pexels-pixabay-209982.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+:root {
+    --coreJade:#4CBB17;
+    --coreSecond:#E3F988;
+    --coreMint:#E5E4E2;
+
+}
+
+.navbar {
+    background-color: #4CBB17;
+}
+
+.btn-outline {
+    background-color: var(--coreJade);
+    border-color: var(--coreMint);
+    color: black;
+    font-weight: bold;
+    justify-content: center;
+
+}
+
+.btn-contact {
+    
+    background-color:black;
+    border-color: 10px solid var(--coreMint);
+    color:white;
+    font-weight: bold;
+    justify-content: center;
+    width:100%;
+    display:block;
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+
+.btn-dark {
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.card img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+
+.h5pink {
+    color: var(--coreMint)
+}
+
+.cardbackground {
+    background-color: var(--coreMint);
+}
+
+.backgroundimage {
+    background-image: url(/images/pexels-martin-magnemyr-2914907-5044298.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.navbar {
+    width:100%;
+}
+
+
+.form-control {
+    background-color: #E3F988;
+    color: black;
+}
+
+.form-control.placeholder {
+    color: black;
+    opacity:1;
+
+}
+
+#golfCarousel {
+    width: 100%;
+    max-height: 400px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+
+  #golfCarousel .carousel-inner {
+    width: 100%;
+    height: 400px; /* Same as above */
+  }
+
+  #golfCarousel .carousel-item {
+    height: 100%;
+  }
+
+  #golfCarousel .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures images scale properly */
+    border: 20px;
+    box-shadow: 0 4px rgba(0, 0, 0, 0.2)
+}
+
+    .carousel-container {
+    background-color: #3fe833; /* Shade of green, can be customized */
+    padding: 4rem 2rem;
+    border-radius: 20px;
+  }
+
+.map-img {
+  height: 250px;
+  object-fit: cover;
+}
+
+
+   .bannerTime {
+      height: 400px;
+      width: 100%;
+      background-image: url("/images/pexels-rushay-booysen-2461682-4398355.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .overlay-box {
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+      padding: 30px 50px;
+      border-radius: 10px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .overlay-box h1 {
+      margin: 0 0 10px;
+      font-size: 32px;
+    }
+
+    .overlay-box p {
+      margin: 0;
+      font-size: 18px;
+      opacity: 0.9;
+    }
+
+.table {
+    margin: 25px;
+    border:black;
+
+}
+
+
+.table table th:first-child,
+.table table td:first-child {
+  width: 150px;
+  text-align: Left;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: #E3F988;
+}
+
+.navImage img.me-3 {
+  border-radius: 50%;
+  opacity:0.8;
+}
+
